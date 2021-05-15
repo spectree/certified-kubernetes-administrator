@@ -11,7 +11,7 @@ If you want fast rollout, make use of maxSurge.
 If there might be a resource quota in place and partial unavailability is acceptable, maxUnavailable can be used.
 
 
-## estart Policies
+## Restart Policies
 
 By default, Docker containers will not start when they exit or when docker daemon is restarted.
 
