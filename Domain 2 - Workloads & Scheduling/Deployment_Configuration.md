@@ -9,3 +9,23 @@ b. maxUnavailable=10% and maxSurge=0   << Update with no extra capacity. In-plac
 If you want fast rollout, make use of maxSurge.
 
 If there might be a resource quota in place and partial unavailability is acceptable, maxUnavailable can be used.
+
+
+## estart Policies
+
+By default, Docker containers will not start when they exit or when docker daemon is restarted.
+
+Docker provides restart policies to control whether your containers start automatically when they exit, or when Docker restarts.
+
+a. no : default, don;t automatically restart the cotainer
+b. on-failure : restart the container if it exits due to an error, which manifest as a non-zero exit code.  
+c. unless-stopped : restart the cotnainer uless if it is stopped or Docker daemon itself stopped oe restarted.
+d. always. : Always restart the cotnainer if it stopped
+
+We can specify the restart policy by using the --restart flag with docker run command.
+
+
+
+
+
+
