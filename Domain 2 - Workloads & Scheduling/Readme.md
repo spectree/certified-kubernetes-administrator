@@ -17,7 +17,8 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 6 | [Creating first Job in Kubernetes][PlDf] |             |             |
 | 7 | [CronJobs][PlDg] |             |             |
 | 8 | [Generating Deployment Manifests via CLI][PlDh] |             |             |
-| 9 | [Understanding DaemonSets][PlDi] | [Prep Commands][PlDp]           | [Assigning Popds to Nodes][PlDh] [Assigning Popds to Nodes-2][PlDq]           |
+| 9 | [Understanding DaemonSets][PlDi] | [Prep Commands][PlDp]           | [Assigning Popds to Nodes][PlDh] 
+                                                                           [Assigning Popds to Nodes-2][PlDq]           |
 | 10 | [Overview of NodeSelector][PlDj] |             |[Assigning Popds to Nodes][PlDh]            |
 | 11 | [Understanding Node Affinity][PlDk] |             |[Assigning Popds to Nodes][PlDh]             |
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |             |             |
