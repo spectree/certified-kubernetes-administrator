@@ -23,7 +23,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |  Require multi node cluster           |             |
 | 13 | [Resource Limits][PlDm] | kubectrl describe node node-name            |             |
 | 14 | [Scheduling Pods without a Scheduler][PlDn] | [Find statid pods in node][PlDr1]<br/>  [Static pods-1][PlDr2]<br/>  [Static pods-2][PlDr3]       | aka static pods. Statics can be installed without k8s controle plane. <br/> It is installed using kubelet agent. <br/> <br/> Place the k8s pod yaml file in /etc/kubernetes/manifests directory (default path kubelet found  running command :  systemctl status kubelet) <br/> of kubelet node.  <br/>Kubelet periodcally scan this directory and will create the pod.  <br/> Static pod cannot be deleted usng command "kubectl delete pod" (that is by requesting it to kube-apiserver)|
-| 15 | [Taints and Toleration][PlDs] | [k8s-taints-tolerations-affinities][PlDs1] <br/> [taints_tolerations][PlDs2]       | A taint allows a node to refuse pod to be scheduled  <br/> unless that pod has matching toleration            |
+| 15 | [Taints and Toleration][PlDs] | [a. k8s-taints-tolerations-affinities][PlDs1] <br/> [b. taints_tolerations][PlDs2]       | A taint allows a node to refuse pod to be scheduled  <br/> unless that pod has matching toleration            |
 
 
    [PlDa]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/labels.yaml>
