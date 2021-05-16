@@ -22,7 +22,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 11 | [Understanding Node Affinity][PlDk] |             |[Assigning Popds to Nodes][PlDh]             |
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |  Require multi node cluster           |             |
 | 13 | [Resource Limits][PlDm] | kubectrl describe node node-name            |             |
-| 14 | [Scheduling Pods without a Scheduler][PlDn] | [Find statid pods in node][PlDr]<br/>  [Static pods][PlDs]       | aka static pods. Statics can be installed without k8s controle plane. <br/> It is installed using kubelet agent. <br/> <br/> Place the k8s pod yaml file in /etc/kubernetes/manifests directory (default path kubelet found  running command :  systemctl status kubelet) <br/> of kubelet node.  <br/>Kubelet periodcally scan this directory and will create the pod.  <br/> Static pod cannot be deleted usng command "kubectl delete pod" (that is by requesting it to kube-apiserver)|
+| 14 | [Scheduling Pods without a Scheduler][PlDn] | [Find statid pods in node][PlDr1]<br/>  [Static pods-1][PlDr2]<br/>  [Static pods-2][PlDr3]       | aka static pods. Statics can be installed without k8s controle plane. <br/> It is installed using kubelet agent. <br/> <br/> Place the k8s pod yaml file in /etc/kubernetes/manifests directory (default path kubelet found  running command :  systemctl status kubelet) <br/> of kubelet node.  <br/>Kubelet periodcally scan this directory and will create the pod.  <br/> Static pod cannot be deleted usng command "kubectl delete pod" (that is by requesting it to kube-apiserver)|
 
 
    [PlDa]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/labels.yaml>
@@ -44,5 +44,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 [PlDp]: <https://github.com/spectree/certified-kubernetes-administrator/blob/master/Command_Setup_Commands.md>
 [PlDq]: <https://medium.com/kubernetes-tutorials/learn-how-to-assign-pods-to-nodes-in-kubernetes-using-nodeselector-and-affinity-features-e62c437f3cf8>
 
-[PlDr]: <https://stackoverflow.com/questions/65657808/how-to-identify-static-pods-via-kubectl-command>
-[PlDs]: <https://blog.mayadata.io/openebs/static-pods-in-kubernetes>
+[PlDr1]: <https://stackoverflow.com/questions/65657808/how-to-identify-static-pods-via-kubectl-command>
+[PlDr2]: <https://blog.mayadata.io/openebs/static-pods-in-kubernetes>
+[PlDr3]:<https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/>
+
