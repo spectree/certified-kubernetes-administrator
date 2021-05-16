@@ -21,7 +21,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 10 | [Overview of NodeSelector][PlDj] |             |[Assigning Popds to Nodes][PlDh]            |
 | 11 | [Understanding Node Affinity][PlDk] |             |[Assigning Popds to Nodes][PlDh]             |
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |  Require multi node cluster           |             |
-| 13 | [Resource Limits][PlDm] |             |             |
+| 13 | [Resource Limits][PlDm] | kubectrl describe node node-name            |             |
 | 14 | [Scheduling Pods without a Scheduler][PlDn] |             |             |
 
 
