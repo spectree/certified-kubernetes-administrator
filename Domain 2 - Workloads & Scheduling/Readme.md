@@ -20,7 +20,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 9 | [Understanding DaemonSets][PlDi] | [Prep Commands][PlDp]           | [Assigning Popds to Nodes][PlDh] <br/> [Assigning Popds to Nodes-2][PlDq]           |
 | 10 | [Overview of NodeSelector][PlDj] |             |[Assigning Popds to Nodes][PlDh]            |
 | 11 | [Understanding Node Affinity][PlDk] |             |[Assigning Popds to Nodes][PlDh]             |
-| 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |             |             |
+| 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |  Require multi node cluster           |             |
 | 13 | [Resource Limits][PlDm] |             |             |
 | 14 | [Scheduling Pods without a Scheduler][PlDn] |             |             |
 
