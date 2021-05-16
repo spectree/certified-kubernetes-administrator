@@ -9,7 +9,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 
 | Sr No | Document Link | Setup | Comments |
 | ------ | ------ | ------ |------ |
-| 1 | [Implementing Labels and Selectors][PlDa] |             |             |
+| 1 | [Implementing Labels and Selectors][PlDa] |             | [PlDo]            |
 | 2 | [Creating our first ReplicaSet][PlDb] |             |             |
 | 3 | [Creating our first deployment][PlDc]|             |             |
 | 4 | [Understanding Liveness Probe][PlDd] |             |             |
@@ -18,8 +18,8 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 7 | [CronJobs][PlDg] |             |             |
 | 8 | [Generating Deployment Manifests via CLI][PlDh] |             |             |
 | 9 | [Understanding DaemonSets][PlDi] |             |             |
-| 10 | [Overview of NodeSelector][PlDj] |             |             |
-| 11 | [Understanding Node Affinity][PlDk] |             |             |
+| 10 | [Overview of NodeSelector][PlDj] |             |[PlDo]             |
+| 11 | [Understanding Node Affinity][PlDk] |             |[PlDo]             |
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |             |             |
 | 13 | [Resource Limits][PlDm] |             |             |
 | 14 | [Scheduling Pods without a Scheduler][PlDn] |             |             |
@@ -39,3 +39,4 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 [PlDl]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/podaffinity-required.yaml>
 [PlDm]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/requests-limits.yaml>
 [PlDn]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/pod-without-scheduler.md>
+[PlDo]: <https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#:~:text=Run%20kubectl%20get%20nodes%20to,the%20node%20you've%20chosen>
