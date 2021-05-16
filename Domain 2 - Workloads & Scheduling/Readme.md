@@ -9,7 +9,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 
 | Sr No | Document Link | Setup | Comments |
 | ------ | ------ | ------ |------ |
-| 1 | [Implementing Labels and Selectors][PlDa] |             | [PlDo]            |
+| 1 | [Implementing Labels and Selectors][PlDa] |             |            |
 | 2 | [Creating our first ReplicaSet][PlDb] |             |             |
 | 3 | [Creating our first deployment][PlDc]|             |             |
 | 4 | [Understanding Liveness Probe][PlDd] |             |             |
@@ -17,9 +17,9 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 6 | [Creating first Job in Kubernetes][PlDf] |             |             |
 | 7 | [CronJobs][PlDg] |             |             |
 | 8 | [Generating Deployment Manifests via CLI][PlDh] |             |             |
-| 9 | [Understanding DaemonSets][PlDi] |             |             |
-| 10 | [Overview of NodeSelector][PlDj] |             |[PlDo]             |
-| 11 | [Understanding Node Affinity][PlDk] |             |[PlDo]             |
+| 9 | [Understanding DaemonSets][PlDi] |             | [Assigning Popds to Nodes]            |
+| 10 | [Overview of NodeSelector][PlDj] |             |[Assigning Popds to Nodes]            |
+| 11 | [Understanding Node Affinity][PlDk] |             |[Assigning Popds to Nodes]             |
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |             |             |
 | 13 | [Resource Limits][PlDm] |             |             |
 | 14 | [Scheduling Pods without a Scheduler][PlDn] |             |             |
