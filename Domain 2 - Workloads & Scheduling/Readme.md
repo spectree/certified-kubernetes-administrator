@@ -50,4 +50,4 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 [PlDr3]:<https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/>
 
 [PlDs1]: <https://banzaicloud.com/blog/k8s-taints-tolerations-affinities/>
-[PlDs2]: <https://docs.openshift.com/container-platform/3.6/admin_guide/scheduling/taints_tolerations.html
+[PlDs2]: <https://docs.openshift.com/container-platform/3.6/admin_guide/scheduling/taints_tolerations.html>
