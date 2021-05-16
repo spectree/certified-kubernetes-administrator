@@ -17,7 +17,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 6 | [Creating first Job in Kubernetes][PlDf] |             |             |
 | 7 | [CronJobs][PlDg] |             |             |
 | 8 | [Generating Deployment Manifests via CLI][PlDh] |             |             |
-| 9 | [Understanding DaemonSets][PlDi] | [Prep Commands][PlDp]           | [Assigning Popds to Nodes][PlDh]            |
+| 9 | [Understanding DaemonSets][PlDi] | [Prep Commands][PlDp]           | [Assigning Popds to Nodes][PlDh] [Assigning Popds to Nodes-2][PlDq]           |
 | 10 | [Overview of NodeSelector][PlDj] |             |[Assigning Popds to Nodes][PlDh]            |
 | 11 | [Understanding Node Affinity][PlDk] |             |[Assigning Popds to Nodes][PlDh]             |
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |             |             |
@@ -39,5 +39,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 [PlDl]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/podaffinity-required.yaml>
 [PlDm]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/requests-limits.yaml>
 [PlDn]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/pod-without-scheduler.md>
+
 [PlDo]: <https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#:~:text=Run%20kubectl%20get%20nodes%20to,the%20node%20you've%20chosen>
 [PlDp]: <https://github.com/spectree/certified-kubernetes-administrator/blob/master/Command_Setup_Commands.md>
+[PlDq]: <https://medium.com/kubernetes-tutorials/learn-how-to-assign-pods-to-nodes-in-kubernetes-using-nodeselector-and-affinity-features-e62c437f3cf8>
