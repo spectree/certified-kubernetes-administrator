@@ -22,7 +22,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 11 | [Understanding Node Affinity][PlDk] |             |[Assigning Popds to Nodes][PlDh]             |
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |  Require multi node cluster           |             |
 | 13 | [Resource Limits][PlDm] | kubectrl describe node node-name            |             |
-| 14 | [Scheduling Pods without a Scheduler][PlDn] |             |             |
+| 14 | [Scheduling Pods without a Scheduler][PlDn] | [PlDr][Find statid pods in node]            | aka static pods. Statics can be installed without k8s controle plane. <br/> It is installed using kubelet agent. Place the k8s pod yaml file in /etc/kubernetes/manifests directory <br/> of kubelet node. Kubelet periodcally scan this directory and will create the pod |
 
 
    [PlDa]: <https://github.com/zealvora/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/labels.yaml>
@@ -43,3 +43,5 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 [PlDo]: <https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#:~:text=Run%20kubectl%20get%20nodes%20to,the%20node%20you've%20chosen>
 [PlDp]: <https://github.com/spectree/certified-kubernetes-administrator/blob/master/Command_Setup_Commands.md>
 [PlDq]: <https://medium.com/kubernetes-tutorials/learn-how-to-assign-pods-to-nodes-in-kubernetes-using-nodeselector-and-affinity-features-e62c437f3cf8>
+
+[PlDr]: <https://stackoverflow.com/questions/65657808/how-to-identify-static-pods-via-kubectl-command>
