@@ -46,7 +46,7 @@ https://kubernetes.io/docs/tutorials/
 | 4 | [Security][PlDe] |
 | 5 | [Storage][PlDf] |
 | 6 | [Cluster Architecture, Installation & Configuration][PlDg] |
-| 7 | [Troubleshooting][PlDi] |
+| 7 | [Troubleshooting 30%][PlDi] |
 
 
 
