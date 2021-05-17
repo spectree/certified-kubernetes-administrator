@@ -23,7 +23,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 12 | [Pod Affinity and Pod Anti-Affinity][PlDl] |  Require multi node cluster           |             |
 | 13 | [Resource Limits][PlDm] | kubectrl describe node node-name            |             |
 | 14 | [Scheduling Pods without a Scheduler][PlDn] | [Find statid pods in node][PlDr1]<br/>  [Static pods-1][PlDr2]<br/>  [Static pods-2][PlDr3]       | aka static pods. Statics can be installed without k8s controle plane. <br/> It is installed using kubelet agent. <br/> <br/> Place the k8s pod yaml file in /etc/kubernetes/manifests directory (default path kubelet found  running command :  systemctl status kubelet) <br/> of kubelet node.  <br/>Kubelet periodcally scan this directory and will create the pod.  <br/> Static pod cannot be deleted usng command "kubectl delete pod" (that is by requesting it to kube-apiserver)|
-| 15 | [Taints and Toleration][PlDs] | [a. k8s-taints-tolerations-affinities][PlDs1]  <br/> [b. taints_tolerations][PlDs2] <br/> [c. Making sense of Taints and toleration][PlDs3]      | A taint allows a node to refuse pod to be scheduled  <br/> unless that pod has matching toleration            |
+| 15 | [Taints and Toleration][PlDs] | [a. k8s-taints-tolerations-affinities][PlDs1]  <br/> [b. taints_tolerations][PlDs2] <br/> [c. Making sense of Taints and toleration][PlDs3]  <br/> [d. Taints Best Practices][PlDs4] | A taint allows a node to refuse pod to be scheduled  <br/> unless that pod has matching toleration         |
 | 16 | [Multi-Container POD Design Patterns][PlDt] |             |             |
 | 17 | [Pod Design Pattern Adaptor/Proxy Pattern][PlDt1] |   [Logging Example][PlDt2]  <br/> [Logging Architecture][PlDt3]       |             |
 
@@ -55,6 +55,9 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 [PlDs1]: <https://banzaicloud.com/blog/k8s-taints-tolerations-affinities/>
 [PlDs2]: <https://docs.openshift.com/container-platform/3.6/admin_guide/scheduling/taints_tolerations.html>
 [PlDs3]: <https://medium.com/kubernetes-tutorials/making-sense-of-taints-and-tolerations-in-kubernetes-446e75010f4e>
+[PlDs4]: <https://opsani.com/resources/kubernetes-nodes-taints-tolerations-best-practices/>
+
+
 
 [PlDt]:  <https://rx-m.com/ckad-online-training/ckad-online-training-module-2/#ckadmod2-multicontainerpods>
 [PlDt1]: <https://github.com/spectree/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/adapter.yaml>
