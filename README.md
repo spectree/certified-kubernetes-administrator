@@ -28,8 +28,10 @@ https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad
 https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks
 ```
 
-## Practice
+## Exam Tip-3
 ```
+Practice
+
 https://kubernetes.io/docs/tasks/
 https://kubernetes.io/docs/tutorials/
 ```
