@@ -38,8 +38,10 @@ https://kubernetes.io/docs/tasks/
 https://kubernetes.io/docs/tutorials/
 ```
 
-#### Exam Tip-4 : Prepare and give mock test in Exam kind of environment(with restrictions and multiple clusters)
+#### Exam Tip-4 
 ```
+Prepare and give mock test in Exam kind of environment(with restrictions and multiple clusters)
+
 example :
 https://killer.sh/login
 ```
