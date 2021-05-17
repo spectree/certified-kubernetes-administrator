@@ -4,6 +4,8 @@ This is a central document which contains all the commands and code files used t
 
 https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-NOV-2020	
 
+https://rx-m.com/cka-online-training **
+
 
 # Exam Domains
 
