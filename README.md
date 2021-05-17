@@ -6,11 +6,11 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 
 https://rx-m.com/cka-online-training **
 
-# CKA Curriculum
+# CKA Curriculum and Tips
 https://github.com/cncf/curriculum/blob/master/ 
 
-# EXAM TIPS
-## Exam Tip-1 : 
+## EXAM TIPS
+### Exam Tip-1 : 
 ```
 1. Only one additional browser tab allowed to open these website for reference : 
                 https://kubernetes.io/docs/ 
@@ -19,7 +19,7 @@ https://github.com/cncf/curriculum/blob/master/
                 
                 So stop using google search insteas search in above link of kubernete website
 ```                
-## Exam Tip-2
+### Exam Tip-2
 ```
 https://medium.com/@kalpessh/my-experience-with-certified-kubernetes-administrator-cka-exam-and-few-tips-d287d4e9edbe
 
@@ -28,7 +28,7 @@ https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad
 https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks
 ```
 
-## Exam Tip-3
+### Exam Tip-3
 ```
 Practice
 
