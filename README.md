@@ -9,22 +9,30 @@ https://rx-m.com/cka-online-training **
 # CKA Curriculum
 https://github.com/cncf/curriculum/blob/master/ 
 
-# EXAM TIPS 
-Exam Tip-1 : 1. Only one additional browser tab allowed to open these website for reference : 
+# EXAM TIPS
+## Exam Tip-1 : 
+```
+1. Only one additional browser tab allowed to open these website for reference : 
                 https://kubernetes.io/docs/ 
                 https://github.com/kubernetes/ 
                 https://kubernetes.io/blog/
                 
                 So stop using google search insteas search in above link of kubernete website
+```                
+## Exam Tip-2
+```
+https://medium.com/@kalpessh/my-experience-with-certified-kubernetes-administrator-cka-exam-and-few-tips-d287d4e9edbe
+
+https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad
                 
-Exam Tip-2 :    https://medium.com/@kalpessh/my-experience-with-certified-kubernetes-administrator-cka-exam-and-few-tips-d287d4e9edbe
+https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks
+```
 
-                https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad
-                
-                https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks
-
-
-Practice   :    https://kubernetes.io/docs/tasks/ , https://kubernetes.io/docs/tutorials/
+## Practice
+```
+https://kubernetes.io/docs/tasks/
+https://kubernetes.io/docs/tutorials/
+```
 
 # Exam Domains
 
