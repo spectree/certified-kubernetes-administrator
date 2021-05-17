@@ -6,6 +6,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 
 https://rx-m.com/cka-online-training **
 
+CKA Curriculum : https://github.com/cncf/curriculum/blob/master/ 
 
 # Exam Domains
 
