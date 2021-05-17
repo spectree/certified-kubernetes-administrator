@@ -4,6 +4,8 @@ The code mentioned in this document are used in the Certified Kubernetes Adminis
 
 https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-SEP-20
 
+https://banzaicloud.com/blog/pod-security-policy/
+
 
 # Video-Document Mapper
 
