@@ -7,7 +7,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 
 # Video-Document Mapper
 
-| Sr No | Document Link | Setup | Comments |
+| Sr No | yaml  | Setup | Comments |
 | ------ | ------ | ------ |------ |
 | 1 | [Implementing Labels and Selectors][PlDa] |             |            |
 | 2 | [Creating our first ReplicaSet][PlDb] |             |             |
