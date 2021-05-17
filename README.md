@@ -7,9 +7,11 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 https://rx-m.com/cka-online-training **
 
 # CKA Curriculum and Tips
-https://github.com/cncf/curriculum/blob/master/ 
 
-## EXAM TIPS
+### Curriculum
+https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.20.pdf
+
+### EXAM TIPS
 #### Exam Tip-1 : 
 ```
 1. Only one additional browser tab allowed to open these website for reference : 
@@ -46,11 +48,11 @@ https://killer.sh/login
 | Domain | Document Link |
 | ------ | ------ |
 | 1 | [Core Concepts][PlDa] |
-| 2 | [Workloads & Scheduling][PlDb] |
-| 3 | [Services and Networking][PlDc] 
+| 2 | [Workloads & Scheduling 15%][PlDb] |
+| 3 | [Services and Networking 20%][PlDc] 
 | 4 | [Security][PlDe] |
-| 5 | [Storage][PlDf] |
-| 6 | [Cluster Architecture, Installation & Configuration][PlDg] |
+| 5 | [Storage 10%][PlDf] |
+| 6 | [Cluster Architecture, Installation & Configuration 25%][PlDg] |
 | 7 | [Troubleshooting 30%][PlDi] |
 
 
