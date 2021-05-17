@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sidecar
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
+    volumeMounts:
+    - name: shared-vol
+      mountPath: /tmp/nginx/    
+    command:
+    - /bin/sh
+    - -c
+    - nginx -g 'daemon off;' > /tmp/nginx/nginx.log
+  - name: adapter
+    image: fluent/fluent-bit
+    command:
+    - /fluent-bit/bin/fluent-bit
+    - -i
+    - tail
+    - -p 
+    - path=/nginx/nginx.log
+    - -o
+    - stdout
+    volumeMounts:
+    - name: shared-vol
+      mountPath: /nginx 
+  volumes:
+  -  name: shared-vol
+     emptyDir: {}
+  restartPolicy: OnFailure
