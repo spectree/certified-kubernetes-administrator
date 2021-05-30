@@ -9,6 +9,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 
 | Sr No | Document Link |
 | ------ | ------ |
+| 0 | [Using kubectl run and Kubectl export command][PlDa0] |
 | 1 | [Creating our first Service and Endpoint][PlDa] |
 | 2 | [Service Type: NodePort][PlDb] |
 | 3 | [Service Type: Load Balancer][PlDc]
