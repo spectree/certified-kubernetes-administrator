@@ -12,19 +12,8 @@ https://rx-m.com/cka-online-training **
 https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.20.pdf
 
 ### EXAM TIPS
-#### Exam Tip-1 : 
-```
-1. Only one additional browser tab allowed to open these website for reference : 
-                https://kubernetes.io/docs/ 
-                https://kubernetes.io/docs/_print/
-                https://kubernetes.io/docs/tutorials/_print/
-                https://github.com/kubernetes/ 
-                https://kubernetes.io/blog/
-                
-                
-                So stop using google search insteas search in above link of kubernete website
-```                
-#### Exam Tip-2
+
+#### Exam Tip-1
 ```
 https://medium.com/@kalpessh/my-experience-with-certified-kubernetes-administrator-cka-exam-and-few-tips-d287d4e9edbe
 
@@ -33,7 +22,7 @@ https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad
 https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks
 ```
 
-#### Exam Tip-3
+#### Exam Tip-2
 ```
 Practice
 
@@ -41,7 +30,7 @@ https://kubernetes.io/docs/tasks/
 https://kubernetes.io/docs/tutorials/
 ```
 
-#### Exam Tip-4 
+#### Exam Tip-3 
 ```
 Prepare and give mock test in Exam kind of environment(with restrictions and multiple clusters)
 
