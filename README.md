@@ -16,9 +16,11 @@ https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.20.pdf
 ```
 1. Only one additional browser tab allowed to open these website for reference : 
                 https://kubernetes.io/docs/ 
+                https://kubernetes.io/docs/_print/
                 https://kubernetes.io/docs/tutorials/_print/
                 https://github.com/kubernetes/ 
                 https://kubernetes.io/blog/
+                
                 
                 So stop using google search insteas search in above link of kubernete website
 ```                
