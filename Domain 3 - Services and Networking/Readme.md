@@ -16,8 +16,8 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 | 4 | [Deploying our first Helm Chart][PlDd] |    |
 | 5 | [Named Based Virtual Hosting (Ingress)][PlDe] |   |
 | 6 | [Deploying Nginx Ingress Controller][PlDf] |   |
-| 7 | [Understanding Ingress Resource and Ingress Controllers][PlDg] |. |
-| 8 | [Configuring Default BackEnd for Ingresss][PlDh] |.  |
+| 7 | [Understanding Ingress Resource and Ingress Controllers][PlDg] |   |
+| 8 | [Configuring Default BackEnd for Ingresss][PlDh] |    |
 
 
    [PlDa0]: <https://github.com/spectree/certified-kubernetes-administrator/blob/master/Domain%202%20-%20Workloads%20%26%20Scheduling/Expose_pod_and_deployment_as_service.md>
