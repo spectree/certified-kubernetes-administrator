@@ -9,7 +9,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator/?couponCode=CKA-
 
 | Sr No | Document Link | Comments |
 | ------ | ------ | ---------|
-| 0 | Using kubectl run and Kubectl export command | [Using kubectl export and run command][PlDa1] </br> [Expose pod and deployment as service][PlDa0]|
+| 0 | Using kubectl run and Kubectl export command | [A. Using kubectl export and run command][PlDa1] </br> [B. Expose pod and deployment as service][PlDa0]|
 | 1 | [Creating our first Service and Endpoint][PlDa] |  |
 | 2 | [Service Type: NodePort][PlDb] |    |
 | 3 | [Service Type: Load Balancer][PlDc] |  |
