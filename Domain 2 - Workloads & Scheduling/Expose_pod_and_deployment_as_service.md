@@ -31,3 +31,10 @@ kubectl get svc
 # Observe the end-points
 kubectl describe svc nginx-pod-svc
 ```
+
+### Create deployment with specific service account
+```
+kubectl run depNew --image=nginx --port=80 
+kubectl run depNew --image=nginx --port=80 --serviceaccount="kplabs"
+kubectl expose deployment/depNew
+```
