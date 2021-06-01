@@ -32,6 +32,11 @@ kubectl get svc
 kubectl describe svc nginx-pod-svc
 ```
 
+### Create a NodePort Service
+```
+kubectl expose deployment nginx --name nodeport-svc --port=80 --target-port=8000 --type=NodePort 
+```
+
 ### Create deployment with specific service account
 ```
 kubectl run depNew --image=nginx --port=80 
